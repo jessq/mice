@@ -9,21 +9,40 @@
   <body>
     <div class="container">
       <div class="row">
-        <button id="start" type="button" style="margin-top: 10px">start</button>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-3">
           <table id="translation" style="width:100%">
             <thead>
               <tr>
-                <td><h4>Left Paw</div><h4></td>
-                <td><h4>Right Paw</div><h4></td>
-                <td><h4>Time Elapsed</div><h4></td>
+                <td><h4>Commands</div><h4></td>
               </tr>
             </thead>
             <tbody>
             </tbody>
           </table> 
+        </div>
+        <div class="col-md-3">
+          <font size='6'><p id="start" style="margin-top:5px">PAUSED</p></font>
+          <p>a = (+1) left paw</p>
+          <p>s = (+1) right paw</p>
+          <p>d = (-1) left paw</p>
+          <p>f = (-1) right paw</p>
+          <p>2 = toggle pause/start</p>
+          <p>1 = exit</p>
+          <p>q = dropped pasta</p>
+          <p>w = baton twirl</p>
+          <p>e = broke pasta</p>
+          <p>r = ate one-handed</p>
+        </div>
+        <div class="col-md-3">
+          <p id="result" style="margin-top:10px"><h4>Results</h4></p>
+          <p id="lpaw"></p>
+          <p id="rpaw"></p>
+          <p id="droppedpasta"></p>
+          <p id="batontwirled"></p>
+          <p id="brokepasta"></p>
+          <p id="onehanded"></p>
+          <p id="time"></p>
+          <div id="speed">Video speed: <input type="text" style="margin-top:10px;" id="vspeed" value="1"></div>
         </div>
       </div>
     </div>
