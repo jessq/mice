@@ -87,7 +87,7 @@ $(function() {
 		    	$('#lpaw').text('Left paw: ' + lpaw);
 		    	$('#rpaw').text('Right paw: ' + rpaw);
 		    	$('#droppedpasta').text('Dropped pasta: ' + droppedpasta);
-		    	$('#batontwirl').text('Baton twirled: ' + batontwirl);
+		    	$('#batontwirled').text('Baton twirled: ' + batontwirl);
 		    	$('#brokepasta').text('Broke pasta: ' + brokepasta);
 		    	$('#onehanded').text('Ate one-handed: ' + onehanded);
 		    	$('#time').text('Time elapsed: ' + Math.round(elapsed * 100000) / 100000 + ' s');
